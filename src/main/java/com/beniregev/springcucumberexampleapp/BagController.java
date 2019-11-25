@@ -3,6 +3,11 @@ package com.beniregev.springcucumberexampleapp;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * SpringBoot {@link RestController}, very simple, nothing fancy.
+ * @author Binyamin Regev
+ * @since 1.8
+ */
 @RestController
 @RequestMapping("/things")
 public class BagController {

@@ -2,6 +2,19 @@ package com.beniregev.springcucumberexampleapp;
 
 import java.util.ArrayList;
 
+/**
+ *  <p>
+ *     <div>
+ *         Simple POJO (Plain Old Java Object) with private {@link ArrayList}
+ *         property with simple basic methods to:
+ *      </div>
+ *      <div>
+ *          {@code add}, {@code get}, {@code clear} and check {@code isEmpty}
+ *      </div>
+ *  </p>
+ * @author Binyamin Regev
+ * @since 1.8
+ */
 public class Bag {
 
     private final ArrayList<String> things;

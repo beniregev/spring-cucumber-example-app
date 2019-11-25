@@ -12,6 +12,19 @@ import org.springframework.http.HttpStatus;
 
 import cucumber.api.java8.En;
 
+/**
+ * <p>
+ * <div>
+ *     What Is Gherkin?
+ * </div>
+ * <div>
+ *     Gherkin is a simple set of grammar rules that make Plain Text structured enough
+ *     for Cucumber to understand. The scenario above is written in Gherkin.
+ * </div>
+ * </p>
+ * @author Binyamin Regev
+ * @since 1.8
+ */
 public class BagCucmberStepDefinitions extends SpringCucumberIntegrationTests implements En {
     private final Logger log = LoggerFactory.getLogger(BagCucmberStepDefinitions.class);
 
